@@ -28,8 +28,8 @@ const result = document.querySelector("#result");
     message = "Overweight";
     encouragement = "You got this! Stay active 🏃";
   } else {
-    message = "Obese";
-    encouragement = "Start small, stay strong 🌟";
+    message = "please enter without dott . 👈";
+    encouragement = "Start again, stay strong 🌟";
   }
 
   result.textContent = `✅ BMI: ${bmi} (${message})\n${encouragement}`;
